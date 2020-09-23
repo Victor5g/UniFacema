@@ -12,10 +12,10 @@ render(){
             
            <Text style={styles.textInput}>  Usuario</Text> 
            <TextInput style={styles.input} placeholder="Digite sua Matricula" placeholderTextColor="#8DADFF"/>
-           <Text style={styles.inputline}>________________________________________________</Text>
+           <Text style={styles.inputline}>______________________________________________</Text>
            <Text style={styles.textInput}>Senha</Text> 
            <TextInput style={styles.input} placeholder="Digite sua Senha" placeholderTextColor="#8DADFF" secureTextEntry={true} />
-           <Text style={styles.inputline}>________________________________________________</Text>
+           <Text style={styles.inputline}>______________________________________________</Text>
            <Text style={styles.textRecover}>Esqueceu Usuario ou Senha Clique <Text style={styles.link}>Aqui</Text></Text> 
 
            <TouchableOpacity style={styles.buttom}>
@@ -39,39 +39,39 @@ logo:{
     width: 359,
     height: 150,
     left: 10,
-    bottom:80,
+    bottom:60,
 },
 
 textLogo:{
     color:"#FFFFFF",
     fontFamily: "Roboto",
-    bottom:80,
-    fontSize:34,
+    bottom:58,
+    fontSize:25,
     fontWeight:"bold",
 },
 
 text:{
     color:"#CFCFCF",
     fontFamily: "Roboto",
-    bottom:80,
-    fontSize:20,
-    marginLeft:46,
-    marginRight:46,
+    bottom:55,
+    fontSize:15,
+    marginLeft:73.6,
+    marginRight:73.6,
 },
 
 textInput:{
     color:"#FFFFFF",
     right:125,
     bottom:17,
-    fontSize: 18,
-    fontFamily:"Roboto",
+    fontSize: 15,
+    
     
 },
 
 input:{
     marginTop:15,
     color:"#FFFFFF",
-    fontSize:18,
+    fontSize:12,
     backgroundColor:"transparent",
     width:300,
     bottom:38
@@ -81,20 +81,19 @@ input:{
 
 inputline:{
     color:"#FFFFFF",
-    fontWeight:"bold",
     bottom:60,
-    fontSize:14
+    
 },
 
 textRecover:{
     color:"#FFFFFF",
-    right:23,
+    right:50,
     bottom:55,
+    fontSize:11
     },
     
     link:{
         color:"#FF0000",
-        fontWeight:"bold",
 },
 
 buttom:{

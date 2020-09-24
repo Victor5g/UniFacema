@@ -22,7 +22,6 @@ render(){
                <Text style={styles.Textbottom}>Entrar</Text>           
             </TouchableOpacity>
         </View> 
-
     )
 }
 } 
@@ -109,8 +108,6 @@ Textbottom:{
     color:"#FFFFFF",
     fontSize:15
 },
-
-
 });
 
  

@@ -8,12 +8,6 @@ import styles from './styles';
 export default function Login(){
     const navigation = useNavigation();
 
-
-
-
-
-    
-
     return(
         <View style={styles.container}>
             <StatusBar backgroundColor= "#001AFF"/>

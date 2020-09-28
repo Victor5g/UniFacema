@@ -3,14 +3,17 @@ import {StyleSheet} from 'react-native';
 export default StyleSheet.create({
     container:{
         flex:1,
-        flexDirection:"row",
+        flexDirection:"column",
         position:"absolute",
-    },
-    
-    HeadeContainer:{
         backgroundColor:"#001AFF",
-        width:400,
-        height:300,
+    },
+    Carrosel:{
+        marginTop:310,
+        backgroundColor:"#ffff",
+        width:393,
+        height:500,
+        borderRadius:40,
+        left:0.5
     },
 
     perfil:{
@@ -27,7 +30,7 @@ export default StyleSheet.create({
         fontSize:45,
         height:70,
         left:40,
-        marginTop:100,
+        marginTop:115,
         color:"#ffff",
     },
 
@@ -39,6 +42,14 @@ export default StyleSheet.create({
         marginTop:170,
         color:"#ffff"
     },
+    
+    TextCarrosel:{
+        fontSize:25,
+        color:"#000000",
+        left:25,
+        marginTop:15
+    },
+
     inputP:{
         position:"absolute",
         marginTop:225,

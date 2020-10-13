@@ -7,21 +7,13 @@ export default StyleSheet.create({
         position:"absolute",
         backgroundColor:"#001AFF",
     },
-    Carrosel:{
-        marginTop:310,
-        backgroundColor:"#ffff",
-        width:393,
-        height:500,
-        borderRadius:40,
-        left:0.5
-    },
 
     perfil:{
         position:"absolute",
         width:90,
         height:90,
         borderRadius:70,
-        marginTop:60,
+        marginTop:50,
         marginLeft:10,
         left:270
     },
@@ -30,7 +22,7 @@ export default StyleSheet.create({
         fontSize:45,
         height:70,
         left:40,
-        marginTop:115,
+        marginTop:80,
         color:"#ffff",
     },
 
@@ -39,8 +31,29 @@ export default StyleSheet.create({
         fontSize:23,
         height:70,
         left:40,
-        marginTop:170,
+        marginTop:135,
         color:"#ffff"
+    },
+
+    inputP:{
+        position:"absolute",
+        marginTop:195,
+        left:30,
+        borderRadius:83,
+        color:"#FFFFFF",
+        borderColor:"#FFFFFF",
+        borderWidth:0.5,
+        width:340,
+        fontSize:16,
+    },
+
+    Container_Carrosel:{
+        marginTop:268,
+        backgroundColor:"#ffff",
+        width:393,
+        height:500,
+        borderRadius:40,
+        left:0.5,
     },
     
     TextCarrosel:{
@@ -50,17 +63,7 @@ export default StyleSheet.create({
         marginTop:15
     },
 
-    inputP:{
-        position:"absolute",
-        marginTop:225,
-        left:30,
-        borderRadius:83,
-        color:"#FFFFFF",
-        borderColor:"#FFFFFF",
-        borderWidth:0.5,
-        width:340,
 
-    }
 
 
 

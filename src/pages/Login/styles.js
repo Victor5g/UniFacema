@@ -9,16 +9,16 @@ export default StyleSheet.create({
     },
     
     logo:{
-        width: 359,
+        width: 450,
         height: 150,
         left: 10,
-        bottom:60,
+        bottom:90,
     },
     
     textLogo:{
         color:"#FFFFFF",
         fontFamily: "Roboto",
-        bottom:58,
+        bottom:89,
         fontSize:25,
         fontWeight:"bold",
     },
@@ -26,8 +26,8 @@ export default StyleSheet.create({
     text:{
         color:"#CFCFCF",
         fontFamily: "Roboto",
-        bottom:55,
-        fontSize:15,
+        bottom:84,
+        fontSize:16.9,
         marginLeft:73.6,
         marginRight:73.6,
     },
@@ -35,16 +35,16 @@ export default StyleSheet.create({
     textInput:{
         color:"#FFFFFF",
         right:125,
-        bottom:17,
-        fontSize: 15,
+        bottom:20,
+        fontSize: 18.7,
         
         
     },
     
     input:{
-        marginTop:15,
+        marginTop:9,
         color:"#FFFFFF",
-        fontSize:12,
+        fontSize:17,
         backgroundColor:"transparent",
         width:300,
         bottom:38
@@ -60,9 +60,9 @@ export default StyleSheet.create({
     
     textRecover:{
         color:"#FFFFFF",
-        right:50,
+        right:23,
         bottom:55,
-        fontSize:11
+        fontSize:14,
         },
         
         link:{

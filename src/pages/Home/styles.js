@@ -34,7 +34,7 @@ export default StyleSheet.create({
         marginTop:135,
         color:"#ffff"
     },
-
+    
     inputP:{
         position:"absolute",
         marginTop:195,
@@ -62,6 +62,41 @@ export default StyleSheet.create({
         left:25,
         marginTop:15
     },
+
+    CardCarrosel:{
+        marginTop:40,
+        marginLeft:20,
+        marginRight:20,
+         width: 220,
+         height:250,
+         padding: 10,
+         borderRadius:50,
+         backgroundColor: "#001AFF"
+    },
+
+    CardCarroselText:{
+        color:"#FFFFFF",
+        fontSize:20,
+        marginTop:20,
+        marginLeft:57,
+    },
+
+    IconCarrosel:{
+        marginTop:30,
+        marginLeft:40,
+        width:120,
+        height:120, 
+    },
+
+    IconCarroselDisciplina:{
+        marginTop:30,
+        marginLeft:50,
+        width:120,
+        height:120, 
+    }
+
+
+
 
 
 

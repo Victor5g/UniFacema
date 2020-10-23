@@ -4,8 +4,8 @@ import { createStackNavigator} from '@react-navigation/stack';
 
 const AppStack = createStackNavigator();
 
-import Login from './pages/Login';
-import Home from './pages/Home';
+import Login from './screens/Login';
+import Home from './screens/Home';
 
 export default function Routes(){
     return(
